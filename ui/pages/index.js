@@ -7,7 +7,7 @@ import { ethers } from 'ethers'
 require('dotenv').config()
 
 import { Greeter } from "../config"
-import GreeterAbi from "../../hardhat/artifacts/contracts/Greeter.sol/Greeter.json"
+import GreeterAbi from "./GreeterAbi.json"
 
 export default function Home() {
 
