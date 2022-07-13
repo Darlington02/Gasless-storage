@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "test": "hardhat test test/unit/myUnitTest.test.js --network hardhat",
+    "test-integration": "hardhat test test/integration/MyFirstContract_integration_test.js --network kovan && hardhat test test/integration/VRFConsumer_integration_test.js --network kovan"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "chai-bn": "^0.3.0",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "hardhat-contract-sizer": "^2.4.0",
+    "hardhat-deploy": "^0.10.4",
+    "solidity-coverage": "^0.7.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
+  }
+}
