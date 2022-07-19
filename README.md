@@ -8,5 +8,3 @@ This repo implements a simple version of gasless meta transactions using openzep
 
 Read more on this here 
 https://docs.openzeppelin.com/defender/relay
-
-https://youtu.be/c-9UX_f2yi4
